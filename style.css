@@ -1,3 +1,55 @@
+ .article form {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   flex-direction: column;
+   margin: 0 auto;
+   width: 35%;
+   gap: 20px;
+ }
+
+ section .article form input[type="text"] {
+   height: 30px;
+   padding: 5px;
+   border: #c9c9c9 2px solid;
+ }
+
+ section .article form input[type="submit"] {
+   background-color: rgb(197, 197, 255);
+   border: none;
+   width: 520px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-transform: uppercase;
+   color: white;
+   font-weight: bold;
+   transition: 0.5s ease-in-out;
+ }
+
+ section .article form input[type="submit"]:hover {
+   transform: scale(1.01);
+   background-color: rgb(151, 151, 235);
+ }
+
+ .article form textarea {
+   width: 510px;
+   min-height: 150px;
+   height: 150px;
+   padding: 5px;
+   margin-bottom: 7px;
+   color: #c9c9c9;
+   border: #c9c9c9 2px solid;
+ }
+
+ .article form h2 {
+   text-align: center;
+ }
+
+ .article form label {
+   font-weight: bold;
+   align-items: left;
+   color: #6c5a51;
+ }
 
 .container-product .product{
     max-width: 32.5%;
