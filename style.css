@@ -1,3 +1,32 @@
+section .article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h2{    
+    text-align: center;
+        
+}
+hr{
+    width: 600px;
+    background-color: black;
+    height: 1px;
+    margin-top: 35px;
+}
+ 
+section .article img{
+    width:420px;
+    height:500px;
+
+}
+section .article{
+    text-align: center;
+}
+section .article p{
+    border: 1px black solid;
+    width: 35%;
+    margin: 0 auto;
+    padding: 5px 2px;
 * {
     margin: 0;
     padding: 0;
